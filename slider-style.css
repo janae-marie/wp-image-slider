@@ -1,0 +1,34 @@
+
+/* # Image Scroller Styles
+---------------------------------------------------------------------------------------------------- */
+
+#text-5 #scroller {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+#text-5 #scroller .innerScrollArea {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 20px;
+}
+#text-5 #scroller ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#text-5 #scroller li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    height: 275px;
+    width: 300px;
+
+}
