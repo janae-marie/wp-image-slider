@@ -22,7 +22,7 @@ jQuery( document ).ready( function($) {
         };
 
 
-        // Scrolling management; start the automatical scrolling
+        // Scrolling management; start the automatic scrolling
         var doScroll = function()
         {
             var curX = scroller.scrollLeft();
